@@ -24,7 +24,7 @@ export const getPromise = () => {
  * * Takes a promise as an argument. The promise will either resolve or reject
  * * If the promise rejects make handlePromise return "Uh Oh"
  * * If it resolves make it return its resolved value
- * * The Promise Consumer must use the onFulfilled and onRejected callback of .then()
+                     * * The Promise Consumer must use the onFulfilled and onRejected callback of .then()
  * The handlePromise() function must be exported
  */
 

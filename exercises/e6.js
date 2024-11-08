@@ -15,7 +15,7 @@
  */
 
 export const handlePromise = () => {
-  // Your code goes here...
+// Your code goes here...
 };
 
 // === TEST YOURSELF ===
