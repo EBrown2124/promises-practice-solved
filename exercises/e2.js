@@ -34,7 +34,10 @@ export const getPromise = (bool) => {
 export const handlePromise = (prom) => {
   // Your code goes here...
 
-  return prom.then((res) => res, () => "Uh Oh");
+  return prom
+  .then(
+    (res) => res, 
+    () => 'Uh Oh');
 };
 
 
